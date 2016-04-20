@@ -1,9 +1,13 @@
 var assert = require('assert');
 describe('Base', function() {
-	describe('add', function () {
+	describe('add&multiply', function () {
 		it('should return 4', function () {
 			assert.equal(2*2, 4);
 			assert.equal(2+2, 4);
+		});
+		it('should return 8', function () {
+			assert.equal(2*2*2, 8);
+			assert.equal(4+4, 4*2);
 		});
 	});
 });

@@ -62,7 +62,7 @@ gulp.task('test', ['pre-test'],  function() {
 
 gulp.task('lint', function() {
   return gulp.src('./client/*.jsx')
-    .pipe(jshint())
+    .pipe(jshint({ linter: require('jshint-jsx').JSXHINT }))
     .pipe(jshint.reporter(jshintXMLReporter))
         .on('end', jshintXMLReporter.writeFile({
             format: 'checkstyle',
@@ -75,5 +75,3 @@ gulp.task('webpack:build-jsx', buildJSX);
 gulp.task('server-start', startMainServer);
 
 gulp.task('default', ['webpack:build-jsx', 'test', 'lint', 'server-start']);
-
-

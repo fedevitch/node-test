@@ -62,7 +62,7 @@ gulp.task('test', ['pre-test'],  function() {
 
 gulp.task('lint', function() {
   return gulp.src('./client/*.jsx')
-    .pipe(jshint({ linter: require('jshint-jsx').JSXHINT }))
+    .pipe(jshint())
     .pipe(jshint.reporter(jshintXMLReporter))
         .on('end', jshintXMLReporter.writeFile({
             format: 'checkstyle',

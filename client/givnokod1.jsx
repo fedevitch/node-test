@@ -6,6 +6,59 @@ class Main2 extends React.Component{
 		super(props);
 	}
 
+	applications_menu_container.find('a').click(function () {
+    if ($(this).parent('.disabled').length === 0 || $(this).parent('.active').length === 0) {
+        applications_menu_container.find('li').removeClass('active');
+        $(this).parent().addClass('active');
+
+        switch ($(this).attr('id')) {
+            case 'active_applications':
+                applications_history_container.hide();
+                applications_history_pagination_toolbar.hide();
+                application_add_container.hide();
+                active_applications_sub_menu.hide();
+                change_application_sub_container.hide();
+                application_history_sub_container.hide();
+                application_files_sub_container.hide();
+                applications_history_sub_menu.hide();
+                historical_application_history_sub_container.hide();
+                historical_application_files_sub_container.hide();
+                load_active_applications(0, 10);
+                break;
+            case 'applications_history':
+                active_applications_container.hide();
+                active_applications_bottom_toolbar.hide();
+                application_add_container.hide();
+                active_applications_sub_menu.hide();
+                change_application_sub_container.hide();
+                application_history_sub_container.hide();
+                application_files_sub_container.hide();
+                applications_history_sub_menu.hide();
+                historical_application_history_sub_container.hide();
+                historical_application_files_sub_container.hide();
+                load_applications_history(0, 10);
+                break;
+            case 'new_application':
+            default:
+                active_applications_container.hide();
+                active_applications_bottom_toolbar.hide();
+                applications_history_container.hide();
+                applications_history_pagination_toolbar.hide();
+                active_applications_sub_menu.hide();
+                change_application_sub_container.hide();
+                application_history_sub_container.hide();
+                application_files_sub_container.hide();
+                applications_history_sub_menu.hide();
+                historical_application_history_sub_container.hide();
+                historical_application_files_sub_container.hide();
+                show_add_application_form();
+                break;
+        }
+    }
+
+    return false;
+});
+
 	function delMessage(id,posted) {
 					if (confirm("Удалить сообщение от "+posted+" ?")) {
 	                    if('corporate'=='common')

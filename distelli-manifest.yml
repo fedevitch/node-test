@@ -1,13 +1,19 @@
 hawk1993/node-test:
   Build:
+    - echo "--npm install--"
     - npm install
+    - echo "----npm test----"	
     - npm test
   PkgInclude:
-    - '*'
+    - server.js
+    - node_modules/*
   PreInstall:
+    - echo "----apt-get UPDATE---"
     - sudo apt-get -y update
+    - echo "---installing nodejs----"
     - sudo apt-get -y install nodejs
   Env:
     - PORT: "3000"
   Exec:
+    - echo "---starting server----"
     - nodejs server.js

@@ -14,5 +14,7 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 
+CMD ["gulp", "test"]
+
 EXPOSE 3000
 CMD [ "node", "server.js" ]

@@ -9,7 +9,7 @@ class Main extends React.Component{
 	render(){
 		return(
 			<div>
-				Hello world
+				<center><h3>Hello from boilerplate</h3></center>
 			</div>
 		);
 	}

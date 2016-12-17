@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <checkstyle version="4.3">
+	<file name="client/givnokod1.jsx">
+		<error line="1" column="1" severity="error" message="'import' is only available in ES6 (use 'esversion: 6')." source="jshint.W119" />
+		<error line="2" column="1" severity="error" message="'import' is only available in ES6 (use 'esversion: 6')." source="jshint.W119" />
+		<error line="4" column="1" severity="error" message="'class' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." source="jshint.W104" />
+		<error line="9" column="32" severity="error" message="Class properties must be methods. Expected '(' but instead saw '.'." source="jshint.E054" />
+		<error line="9" column="38" severity="error" message="Expected an identifier and instead saw 'a'." source="jshint.E030" />
+		<error line="9" column="41" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="9" column="42" severity="error" message="Expected an identifier and instead saw '.'." source="jshint.E030" />
+		<error line="9" column="49" severity="error" message="Expected an identifier and instead saw 'function' (a reserved word)." source="jshint.W024" />
+		<error line="9" column="58" severity="error" message="Expected ')' to match '(' from line 9 and instead saw '('." source="jshint.E020" />
+		<error line="9" column="58" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="9" column="59" severity="error" message="Expected an identifier and instead saw ')'." source="jshint.E030" />
+		<error line="9" column="61" severity="error" message="Unexpected '{'." source="jshint.W052" />
+		<error line="10" column="10" severity="error" message="Expected ')' to match '(' from line 10 and instead saw '('." source="jshint.E020" />
+		<error line="10" column="10" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="10" column="15" severity="error" message="Unexpected ')'." source="jshint.W052" />
+		<error line="10" column="16" severity="error" message="Unexpected '.'." source="jshint.W052" />
+		<error line="10" column="24" severity="error" message="Expected an identifier and instead saw '.disabled'." source="jshint.E030" />
+		<error line="10" column="35" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="10" column="36" severity="error" message="Expected an identifier and instead saw '.'." source="jshint.E030" />
+		<error line="10" column="44" severity="error" message="Class properties must be methods. Expected '(' but instead saw '==='." source="jshint.E054" />
+		<error line="10" column="55" severity="error" message="Expected an identifier and instead saw 'this' (a reserved word)." source="jshint.W024" />
+		<error line="10" column="59" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="10" column="60" severity="error" message="Expected an identifier and instead saw '.'." source="jshint.E030" />
+		<error line="10" column="67" severity="error" message="Duplicate class method 'parent'." source="jshint.W075" />
+		<error line="10" column="68" severity="error" message="Expected an identifier and instead saw '.active'." source="jshint.E030" />
+		<error line="10" column="77" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="10" column="78" severity="error" message="Expected an identifier and instead saw '.'." source="jshint.E030" />
+		<error line="10" column="86" severity="error" message="Class properties must be methods. Expected '(' but instead saw '==='." source="jshint.E054" />
+		<error line="11" column="41" severity="error" message="Duplicate class method 'length'." source="jshint.W075" />
+		<error line="11" column="42" severity="error" message="Expected an identifier and instead saw 'li'." source="jshint.E030" />
+		<error line="11" column="46" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="11" column="47" severity="error" message="Expected an identifier and instead saw '.'." source="jshint.E030" />
+		<error line="11" column="60" severity="error" message="Expected an identifier and instead saw 'active'." source="jshint.E030" />
+		<error line="11" column="68" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="11" column="69" severity="error" message="Expected an identifier and instead saw ';'." source="jshint.E030" />
+		<error line="12" column="11" severity="error" message="Expected an identifier and instead saw 'this' (a reserved word)." source="jshint.W024" />
+		<error line="12" column="15" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="12" column="16" severity="error" message="Expected an identifier and instead saw '.'." source="jshint.E030" />
+		<error line="12" column="23" severity="error" message="Duplicate class method 'parent'." source="jshint.W075" />
+		<error line="12" column="24" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="12" column="25" severity="error" message="Expected an identifier and instead saw '.'." source="jshint.E030" />
+		<error line="12" column="35" severity="error" message="Expected an identifier and instead saw 'active'." source="jshint.E030" />
+		<error line="12" column="43" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="12" column="44" severity="error" message="Expected an identifier and instead saw ';'." source="jshint.E030" />
+		<error line="14" column="18" severity="error" message="Expected ')' to match '(' from line 14 and instead saw '('." source="jshint.E020" />
+		<error line="14" column="18" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="14" column="23" severity="error" message="Unexpected ')'." source="jshint.W052" />
+		<error line="14" column="24" severity="error" message="Unexpected '.'." source="jshint.W052" />
+		<error line="14" column="30" severity="error" message="Expected an identifier and instead saw 'id'." source="jshint.E030" />
+		<error line="14" column="34" severity="error" message="'function closure expressions' is only available in Mozilla JavaScript extensions (use moz option)." source="jshint.W118" />
+		<error line="14" column="34" severity="error" message="Too many errors. (12% scanned)." source="jshint.E043" />
+	</file>
 	<file name="client/index.jsx">
 		<error line="1" column="1" severity="error" message="'import' is only available in ES6 (use 'esversion: 6')." source="jshint.W119" />
 		<error line="2" column="1" severity="error" message="'import' is only available in ES6 (use 'esversion: 6')." source="jshint.W119" />

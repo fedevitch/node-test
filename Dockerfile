@@ -1,6 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER fedevitch "lmfedevitch@gmail.com"
 RUN apt-get update
+RUN apt-get install -y wget
 RUN wget https://nodejs.org/dist/v5.9.1/node-v5.9.1-linux-x64.tar.xz
 RUN apt-get install -y xz-utils
 RUN tar -C /usr/local --strip-components 1 xJf node-v5.9.1-linux-x64.tar.xsz

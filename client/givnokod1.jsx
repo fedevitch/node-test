@@ -60,7 +60,7 @@ class Main2 extends React.Component{
 });
 
 	function delMessage(id,posted) {
-					if (confirm("Удалить сообщение от "+posted+" ?")) {
+					if (confirm(" "+posted+" ?")) {
 	                    if('corporate'=='common')
 						{
 	                        window.location="/forum/theme/?id=22213&delmsg="+id;

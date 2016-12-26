@@ -70,7 +70,10 @@
 		function Main(props) {
 			_classCallCheck(this, Main);
 
-			return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).call(this, props));
+			var _this = _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).call(this, props));
+
+			console.log("constructor of <Main/> executed successfully");
+			return _this;
 		}
 
 		_createClass(Main, [{
@@ -86,6 +89,36 @@
 							'h3',
 							null,
 							'Hello from boilerplate'
+						)
+					),
+					_react2.default.createElement(
+						'h4',
+						null,
+						'node-test'
+					),
+					_react2.default.createElement(
+						'p',
+						null,
+						'sample of project'
+					),
+					'Contains:',
+					_react2.default.createElement(
+						'ul',
+						null,
+						_react2.default.createElement(
+							'li',
+							null,
+							'nodejs server'
+						),
+						_react2.default.createElement(
+							'li',
+							null,
+							'react boilerplate'
+						),
+						_react2.default.createElement(
+							'li',
+							null,
+							'sample of unit tests, jshint(codestyle checker) and istanbul(coverage checker)'
 						)
 					)
 				);

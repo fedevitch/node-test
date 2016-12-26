@@ -11,10 +11,10 @@ class Main extends React.Component{
 		return(
 			<div>
 				<center><h3>Hello from boilerplate</h3></center>
-				<h4>node-test</h4>
+				<h4>Node.js test app</h4>
 
 				<p>sample of project</p>
-				
+
 				Contains:
 				<ul>
 					<li>nodejs server</li>

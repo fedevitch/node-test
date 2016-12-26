@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="0"  lines-covered="0"  line-rate="1"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1481977340502" complexity="0" version="0.1">
+<coverage lines-valid="0"  lines-covered="0"  line-rate="1"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1482411888260" complexity="0" version="0.1">
 <sources>
-	<source>/home/lyubomyr/projects/node-test</source>
+	<source>/home/hawk/projects/node-test/node-test</source>
 </sources>
 <packages>
 </packages>

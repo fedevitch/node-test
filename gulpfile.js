@@ -38,6 +38,7 @@ var startServer = function(serverFilePath){
 };
 
 var startMainServer = function () {
+    console.log(Date().toString(), ": starting server");
     startServer('./server.js');
 };
 

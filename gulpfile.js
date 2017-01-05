@@ -39,7 +39,7 @@ var startServer = function(serverFilePath){
 
 var startMainServer = function () {
     console.log(Date().toString(), ": starting server");
-    console.log("build-00011");
+    console.log("build-00012");
     startServer('./server.js');
 };
 

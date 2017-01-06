@@ -8,7 +8,7 @@ describe('Base', function() {
 		it('should return 8', function () {
 			assert.equal(2*2*2, 8);
 			assert.equal(4+4, 4*2);
-		});		
+		});
 	});
 });
 describe('Array', function() {

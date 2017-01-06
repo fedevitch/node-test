@@ -5,6 +5,7 @@ class Main extends React.Component{
 	constructor(props) {
 		super(props);
 		console.log("constructor of <Main/> executed successfully");
+		console.log("build v0.2");
 	}
 
 	render(){
@@ -18,8 +19,8 @@ class Main extends React.Component{
 				Contains:
 				<ul>
 					<li>nodejs server</li>
-					<li>react boilerplate</li>
-					<li>sample of unit tests, jshint(codestyle checker) and istanbul(coverage checker)</li>
+					<li>React view</li>
+					<li>sample of unit tests, jshint(codestyle checker) and istanbul(code coverage checker)</li>
 				</ul>
 			</div>
 		);

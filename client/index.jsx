@@ -5,7 +5,7 @@ class Main extends React.Component{
 	constructor(props) {
 		super(props);
 		console.log("constructor of <Main/> executed successfully");
-		console.log("build v0.2");
+		console.log("build v0.21");
 	}
 
 	render(){

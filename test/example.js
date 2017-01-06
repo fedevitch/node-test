@@ -2,7 +2,7 @@ var assert = require('assert');
 describe('Base', function() {
 	describe('add&multiply', function () {
 		it('should return 4', function () {
-			assert.equal(2*2, 4);
+			assert.equal(2*2, 5);
 			assert.equal(2+2, 4);
 		});
 		it('should return 8', function () {
